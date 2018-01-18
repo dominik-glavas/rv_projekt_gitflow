@@ -1,21 +1,47 @@
-\documentclass[utf8]{beamer}
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usetheme{Hannover}
 
-\title{Gitflow Workflow}
+\title{Gitflow: A git workflow}
 \usepackage[english]{babel}
-\usepackage[T1]{fontenc}
-
 
 \usepackage{graphicx}
 
 \begin{document}
 \maketitle{}
 \begin{frame}
-\frametitle{Uvod}
-Gitflow :
+	
+\end{frame}
+\begin{frame}
+\frametitle{Git}
 \begin{itemize}
-\item Oblik Git Workflow-a koji definira razvoj projekata grananjem (branching)
-\item Gitflow je dizajn Nizozemskog software inžinjera Vincenta Driessena
+	\item Git je program za verzioniranje i kontrolu projekata
+	\item Razvoj projekata i praćenje verzija moguće je uz samo par linija naredbi
+	\item Svaka promjena u projektu pamti se zasebno, te se može inkorporirati ili odbaciti po korisnikovoj želji
+	\item Grananje omogućava zaseban razvoj svih takvih promjena bez negativnog utjecaja na sam projekt
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Workflow}
+\begin{itemize}
+	\item Workflow je strukturiran set instrukcija koji služi kao vodič pri razvoju projekta
+	\item Git također ima nekoliko oblika Workflowa kao što su : 
+		\begin{itemize}
+			\item Centralized Workflow - Oblik workflowa najsličniji SVN (Apache Subversion Control)
+			\item Git Feature Branch Workflow - Razvoj projekta se odvija na zasebnim granama
+			\item Git Workflow (Gitflow) - Sličan Git Feature workflow-u ali svaka grana ima svoju ulogu
+		\end{itemize}
+\end{itemize}	
+\end{frame}
+
+\begin{frame}
+\frametitle{Gitflow}
+\begin{itemize}
+	\item Oblik Git Workflow-a koji definira razvoj projekata grananjem (branching)
+	\item Gitflow je dizajn Nizozemskog software inžinjera Vincenta Driessena
+	\item 
 \end{itemize}
 \end{frame}
 \end{document}
